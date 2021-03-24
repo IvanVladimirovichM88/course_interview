@@ -6,7 +6,7 @@ import org.hibernate.Session;
 
 public class StudentDAO {
 
-    private Session session;
+    private final Session session;
 
     public StudentDAO() {
         session = HibernateSessionFactory.getSessionFactory().openSession();
