@@ -19,7 +19,6 @@ public class MainClass5 {
 
             studentDAO.create(new Student(studentName+i, Byte.valueOf("5")));
         }
-        
         System.out.println(studentDAO.findById(1L)) ;
     }
 }
